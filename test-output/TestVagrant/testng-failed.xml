@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestVagrant]">
+  <test name="CodingRound(failed)">
+    <classes>
+      <class name="testvagrant.codinground.tests.HotelBookingTest">
+        <methods>
+          <include name="shouldBeAbleToSearchForHotels"/>
+          <include name="before"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- testvagrant.codinground.tests.HotelBookingTest -->
+      <class name="testvagrant.codinground.tests.FlightBookingTest">
+        <methods>
+          <include name="before"/>
+          <include name="validateThatFlightSearchResultsDisplayed"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- testvagrant.codinground.tests.FlightBookingTest -->
+    </classes>
+  </test> <!-- CodingRound(failed) -->
+</suite> <!-- Failed suite [TestVagrant] -->

@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52594" started-at="2018-11-11T15:07:39Z" finished-at="2018-11-11T15:08:32Z">
+  <suite name="Default suite" duration-ms="22619" started-at="2018-11-11T17:08:56Z" finished-at="2018-11-11T17:09:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52594" started-at="2018-11-11T15:07:39Z" finished-at="2018-11-11T15:08:32Z">
-      <class name="testvagrant.codinground.tests.HotelBookingTest">
-        <test-method status="PASS" signature="killTheBrowserAndDriverInstances()[pri:0, instance:testvagrant.codinground.tests.HotelBookingTest@68c4039c]" name="killTheBrowserAndDriverInstances" is-config="true" duration-ms="21515" started-at="2018-11-11T20:37:39Z" finished-at="2018-11-11T20:38:01Z">
+    <test name="Default test" duration-ms="22619" started-at="2018-11-11T17:08:56Z" finished-at="2018-11-11T17:09:19Z">
+      <class name="testvagrant.codinground.tests.FlightBookingTest">
+        <test-method status="PASS" signature="killTheBrowserAndDriverInstances()[pri:0, instance:testvagrant.codinground.tests.FlightBookingTest@68c4039c]" name="killTheBrowserAndDriverInstances" is-config="true" duration-ms="13506" started-at="2018-11-11T22:38:56Z" finished-at="2018-11-11T22:39:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killTheBrowserAndDriverInstances -->
-        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:testvagrant.codinground.tests.HotelBookingTest@68c4039c]" name="shouldBeAbleToSearchForHotels" duration-ms="20631" started-at="2018-11-11T20:38:01Z" finished-at="2018-11-11T20:38:22Z">
+        <test-method status="PASS" signature="validateThatFlightSearchResultsDisplayed()[pri:0, instance:testvagrant.codinground.tests.FlightBookingTest@68c4039c]" name="validateThatFlightSearchResultsDisplayed" duration-ms="7711" started-at="2018-11-11T22:39:10Z" finished-at="2018-11-11T22:39:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldBeAbleToSearchForHotels -->
-        <test-method status="PASS" signature="killTheBrowserInstances()[pri:0, instance:testvagrant.codinground.tests.HotelBookingTest@68c4039c]" name="killTheBrowserInstances" is-config="true" duration-ms="10095" started-at="2018-11-11T20:38:22Z" finished-at="2018-11-11T20:38:32Z">
+        </test-method> <!-- validateThatFlightSearchResultsDisplayed -->
+        <test-method status="PASS" signature="killTheBrowserInstances()[pri:0, instance:testvagrant.codinground.tests.FlightBookingTest@68c4039c]" name="killTheBrowserInstances" is-config="true" duration-ms="1353" started-at="2018-11-11T22:39:17Z" finished-at="2018-11-11T22:39:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killTheBrowserInstances -->
-      </class> <!-- testvagrant.codinground.tests.HotelBookingTest -->
+      </class> <!-- testvagrant.codinground.tests.FlightBookingTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
