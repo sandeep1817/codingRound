@@ -58,5 +58,4 @@ public class HotelSearchPage {
 		wait.until(ExpectedConditions.visibilityOf(hotelsPage.clickOnDate)).click();
 		wait.until(ExpectedConditions.visibilityOf(hotelsPage.searchHotelsButton)).click();
 	}
-	
 }

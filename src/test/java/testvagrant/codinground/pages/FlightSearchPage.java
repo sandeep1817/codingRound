@@ -54,11 +54,10 @@ public class FlightSearchPage {
 		log.info("From City Entered is: "+fromCity);
 		wait.until(ExpectedConditions.visibilityOf(flightsPage.toCityTextBox)).sendKeys(toCity);
 		log.info("To City Entered is: "+toCity);
-		flightsPage.journeyDateBox.sendKeys(dateOfJourney);
+		wait.until(ExpectedConditions.visibilityOf(flightsPage.journeyDateBox)).sendKeys(dateOfJourney);
 		flightsPage.searchButton.click();
 		wait.until(ExpectedConditions.visibilityOf(flightsPage.modifySearchBtn));
 		assertEquals(flightsPage.modifySearchBtn.isDisplayed(), true);
 		log.info("Flight Search results successfully displayed");
 	}
-
 }

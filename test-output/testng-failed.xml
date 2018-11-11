@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="SignInTest">
+      <class name="testvagrant.codinground.tests.FlightBookingTest">
         <methods>
-          <include name="shouldThrowAnErrorIfSignInDetailsAreMissing"/>
+          <include name="validateThatFlightSearchResultsDisplayed"/>
+          <include name="killTheBrowserAndDriverInstances"/>
+          <include name="killTheBrowserInstances"/>
         </methods>
-      </class> <!-- SignInTest -->
+      </class> <!-- testvagrant.codinground.tests.FlightBookingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
